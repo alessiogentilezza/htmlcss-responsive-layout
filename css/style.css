@@ -72,7 +72,7 @@ html {
 }
 
 .container {
-    max-width: 736px;
+    max-width: calc(100% - 20px);
     margin: 0 auto;
 }
 
@@ -109,17 +109,19 @@ html {
 
 .debug-box {
     height: 70px;
+    line-height: 70px;
     background-color: #B5DDFF;
 
 }
 
-.debug-box-plan {
+.debug-box-2 {
     height: 70px;
+    line-height: 70px;
     background-color: #BCB5EE;
 
 }
 
-.card {
+#demo .card {
     margin-bottom: 20px;
     background-color: #B5DDFF;
 }
@@ -137,10 +139,6 @@ header {
     z-index: 100;
 }
 
-header .debug-box {
-    line-height: 70px;
-}
-
 main {
     margin-top: 90px;
 }
@@ -153,6 +151,14 @@ main {
 #planning .column {
     margin-bottom: 20px;
     background-color: #BCB5EE;
+}
+
+#testimonial {
+    padding: 30px 0;
+}
+
+#testimonial .card {
+    margin: 30px 0;
 }
 
 /* REGOLE RESPONSIVE */
@@ -188,6 +194,17 @@ main {
         margin-right: 10px;
 
     }
+
+    #testimonial .card {
+            display: flex;
+            flex-wrap: wrap;
+
+    }
+
+    #testimonial .card div:last-child {
+        flex-grow: 1;
+    }
+
 
 }
 
