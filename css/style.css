@@ -72,7 +72,7 @@ html {
 }
 
 .container {
-    max-width: calc(100% - 20px);
+    max-width: 736px;
     margin: 0 auto;
 }
 
@@ -107,17 +107,19 @@ html {
 } */
 
 
-
-
-
 .debug-box {
     height: 70px;
     background-color: #B5DDFF;
-    color: white;
 
 }
 
-.column {
+.debug-box-plan {
+    height: 70px;
+    background-color: #BCB5EE;
+
+}
+
+.card {
     margin-bottom: 20px;
     background-color: #B5DDFF;
 }
@@ -143,6 +145,16 @@ main {
     margin-top: 90px;
 }
 
+#planning {
+    background-color: #9792E4;
+    padding: 30px 0;
+}
+
+#planning .column {
+    margin: 20px 0;
+    background-color: #BCB5EE;
+}
+
 /* REGOLE RESPONSIVE */
 
 
@@ -151,20 +163,27 @@ main {
         max-width: 736px;
     }
 
-    #demo .columns {
+    #demo .cards {
         display: flex;
         flex-wrap: wrap;
         margin: 0 -10px;
 
     }
 
-    #demo .column:first-child {
+    #demo .card:first-child {
         width: calc((100% / 3 * 2) - 20px);
 
     }
 
-    .column {
+    #demo .card {
         width: calc((100% / 3) - 20px);
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    #plannig .card {
+        width: calc((100% / 2) - 20px);
         margin-left: 10px;
         margin-right: 10px;
 
@@ -173,11 +192,18 @@ main {
 }
 
 
-
-
 @media screen and (min-width: 992px) {
     .container {
         max-width: 960px;
+    }
+
+    #planning .columns {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #planning .column {
+        width: 50%;
     }
 
 }
