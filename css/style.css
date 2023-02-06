@@ -72,7 +72,7 @@ html {
 }
 
 .container {
-    max-width: 100%;
+    max-width: calc(100% - 20px);
     margin: 0 auto;
 }
 
@@ -107,11 +107,19 @@ html {
 } */
 
 
+
+
+
 .debug-box {
     height: 70px;
     background-color: #B5DDFF;
     color: white;
 
+}
+
+.column {
+    margin-bottom: 20px;
+    background-color: #B5DDFF;
 }
 
 /* REGOLE CSS */
@@ -129,15 +137,37 @@ header {
 
 header .debug-box {
     line-height: 70px;
-    font-size: 32px;
 }
 
+main {
+    margin-top: 90px;
+}
 
 /* REGOLE RESPONSIVE */
 
+
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 738px;
+        max-width: 736px;
+    }
+
+    #demo .columns {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+
+    }
+
+    #demo .column:first-child {
+        width: calc((100% / 3 * 2) - 20px);
+
+    }
+
+    .column {
+        width: calc((100% / 3) - 20px);
+        margin-left: 10px;
+        margin-right: 10px;
+
     }
 
 }
@@ -145,14 +175,9 @@ header .debug-box {
 
 
 
-
-
-
-
-
 @media screen and (min-width: 992px) {
     .container {
-        max-width: 962px;
+        max-width: 960px;
     }
 
 }
