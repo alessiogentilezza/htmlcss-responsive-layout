@@ -179,8 +179,20 @@ main {
 
 #about-us .card {
     margin: 10px 0;
+    background-color: #B5DDFF;
 }
 
+#get-started {
+    background-color: #9792E4;
+    padding: 50px 0;
+
+}
+
+footer {
+    background-color: #333333;
+    padding: 50px 0;
+
+}
 
 /* REGOLE RESPONSIVE */
 
