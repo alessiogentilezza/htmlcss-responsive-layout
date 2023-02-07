@@ -124,10 +124,6 @@ html {
 
 }
 
-#demo .card {
-    margin-bottom: 20px;
-    background-color: #B5DDFF;
-}
 
 /* REGOLE CSS */
 
@@ -164,24 +160,7 @@ nav {
     display: none;
 }
 
-.text-white {
-    color: white;
-}
 
-.text-black {
-    color: black;
-}
-
-.btn {
-    padding: 5px 10px;
-    border-radius: 50px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.btn.white {
-    background-color: white;
-}
 
 .hamburger {
     font-size: 25px;
@@ -191,6 +170,48 @@ nav {
 main {
     margin-top: 90px;
 }
+
+#demo .card {
+    margin-bottom: 20px;
+    background-color: #B5DDFF;
+    text-align: center;
+    padding: 20px;
+}
+
+.card i {
+    font-size: 80px;
+    color: #0084FD;
+}
+
+#icon {
+    font-size: 16px;
+    color: #fff;
+
+}
+
+
+
+#demo .card h3 {
+    color: #0084FD;
+    padding: 20px 0;
+}
+
+#demo .card p {
+    line-height: 30px;
+    color: #5A6E7F;
+}
+
+
+.demo-img {
+    width: 50%;
+    align-self: flex-end;
+    display: block;
+}
+
+/* .card.rounded.no-padding{
+    padding: 0;
+} */
+
 
 #planning {
     background-color: #9792E4;
@@ -240,6 +261,49 @@ footer {
 
 }
 
+/* UTILITY */
+
+.rounded {
+    border-radius: 20px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+.btn.big {
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.btn.white {
+    background-color: white;
+}
+
+.btn.blue {
+    background-color: #0084FD;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+
+
+
+
+
 /* REGOLE RESPONSIVE */
 
 
@@ -252,6 +316,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         margin: 0 -10px;
+        text-align: center;
 
     }
 
@@ -266,6 +331,7 @@ footer {
         margin-right: 10px;
 
     }
+
 
     #plannig .card {
         width: calc((100% / 2) - 20px);
