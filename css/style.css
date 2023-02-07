@@ -134,13 +134,59 @@ html {
 
 header {
     background-color: #0084FD;
-    /* height: 70px; */
+    height: 70px;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
 }
+
+header .container {
+    height: 100%;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav li {
+    margin-left: 10px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav {
+    display: none;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.btn {
+    padding: 5px 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn.white {
+    background-color: white;
+}
+
+.hamburger {
+    font-size: 25px;
+}
+
 
 main {
     margin-top: 90px;
@@ -275,6 +321,16 @@ footer {
     .container {
         max-width: 960px;
     }
+
+    nav {
+        display: block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+
 
     #demo .card:first-child {
         display: flex;
