@@ -247,14 +247,16 @@ h4 {
     padding: 20px 0 0 0;
 }
 
-/* .column.dx p {
-    padding: 20px;
-} */
 
 .column.dx {
     text-align: center;
-
+    
 }
+
+.column.dx p {
+    padding: 0 20px;
+}
+
 
 #arrow {
     background-color: #9792E4;
