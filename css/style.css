@@ -250,7 +250,7 @@ h4 {
 
 .column.dx {
     text-align: center;
-    
+
 }
 
 .column.dx p {
@@ -269,15 +269,12 @@ h4 {
     margin: 20px 0;
 }
 
-
-
-
 #testimonial {
     padding: 30px 0;
 }
 
 #testimonial .card {
-    margin: 30px 0;
+    margin-bottom: 20px;
 }
 
 .presentation {
@@ -287,6 +284,9 @@ h4 {
 .presentation h2 {
     color: #9792E4;
     padding: 20px 0;
+}
+.presentation p {
+    padding-bottom: 20px;
 }
 
 .testimonial {
@@ -313,26 +313,55 @@ h4 {
 }
 
 
-
-
-
-
-
-
-
-
-
 #features {
     background-color: #9792E4;
     padding: 50px 0;
 }
 
 #features .card {
-    margin: 10px 0;
+    margin-bottom: 20px;
 }
 
+#features .title {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+#features .card h2,
+h3 {
+    color: #9792E4;
+
+}
+
+#features h2 {
+    font-size: 50px;
+}
+
+#features h3 {
+    padding: 30px 0;
+}
+
+#features p {
+    line-height: 30px;
+    color: #5A6E7F;
+    padding-bottom: 30px;
+
+}
+
+#features .card {
+    padding: 30px;
+
+}
+
+
+
+
+
+
 #about-us {
-    padding: 50px 0;
+    /* padding: 50px 0; */
 }
 
 #about-us .card {
@@ -378,9 +407,8 @@ footer {
 }
 
 .btn.big {
-    padding: 5px 20px;
+    padding: 5px 40px;
     border-radius: 50px;
-    text-align: center;
 }
 
 .btn.white {
@@ -390,6 +418,11 @@ footer {
 .btn.blue {
     background-color: #0084FD;
 }
+
+.btn.violet {
+    background-color: #9792E4;
+}
+
 
 .text-white {
     color: white;
@@ -452,6 +485,7 @@ footer {
         text-align: left;
         flex-grow: 1;
     }
+
     #testimonial .card div:last-child h3 {
         padding: 0 20px;
     }
