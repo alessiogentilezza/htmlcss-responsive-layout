@@ -277,14 +277,17 @@ h4 {
     margin-bottom: 20px;
 }
 
-.presentation {
+#testimonial .presentation {
     text-align: center;
 }
 
 .presentation h2 {
     color: #9792E4;
     padding: 20px 0;
+    font-size: 50px;
+
 }
+
 .presentation p {
     padding-bottom: 20px;
 }
@@ -355,19 +358,34 @@ h3 {
 
 }
 
-
-
-
-
-
 #about-us {
-    /* padding: 50px 0; */
+    padding: 30px 0 50px 0;
 }
 
-#about-us .card {
-    margin: 10px 0;
-    background-color: #B5DDFF;
+#about-us p {
+    line-height: 30px;
+    color: #5A6E7F;
+    padding-bottom: 30px;
+
 }
+
+#about-us h3 {
+    padding: 30px 0;
+}
+
+#about-us i {
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
 
 #get-started {
     background-color: #9792E4;
