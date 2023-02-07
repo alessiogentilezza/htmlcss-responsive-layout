@@ -206,11 +206,22 @@ main {
     width: 50%;
     align-self: flex-end;
     display: block;
+    margin: 0 auto;
+
+    /* position: relative;
+    bottom: -20px;
+    left: calc(50% - 25%); */
 }
 
-/* .card.rounded.no-padding{
-    padding: 0;
-} */
+
+#demo .card:first-child {
+    text-align: left;
+    padding: 0%;
+
+
+
+}
+
 
 
 #planning {
@@ -267,8 +278,12 @@ footer {
     border-radius: 20px;
 }
 
-.mb-30{
+.mb-30 {
     margin-bottom: 30px;
+}
+
+.p-20 {
+    padding: 20px;
 }
 
 .btn {
@@ -277,6 +292,7 @@ footer {
     text-decoration: none;
     text-align: center;
 }
+
 .btn.big {
     padding: 5px 20px;
     border-radius: 50px;
@@ -379,9 +395,16 @@ footer {
     }
 
 
+    .demo-img {
+        width: 40%;
+        margin: 0;
+        padding: 0 20px;
 
+        /* bottom: -20px;
+        left: 0; */
+
+    }
 }
-
 
 @media screen and (min-width: 992px) {
     .container {
@@ -400,7 +423,6 @@ footer {
 
     #demo .card:first-child {
         display: flex;
-        align-items: center;
 
     }
 
