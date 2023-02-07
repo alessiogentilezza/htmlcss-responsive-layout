@@ -215,9 +215,6 @@ main {
 #demo .card:first-child {
     text-align: left;
     padding: 0%;
-
-
-
 }
 
 
@@ -229,7 +226,6 @@ main {
 
 #planning .column {
     margin-bottom: 20px;
-    /* background-color: #BCB5EE; */
 }
 
 #planning img {
@@ -274,14 +270,6 @@ h4 {
 
 
 
-
-
-
-
-
-
-
-
 #testimonial {
     padding: 30px 0;
 }
@@ -289,6 +277,47 @@ h4 {
 #testimonial .card {
     margin: 30px 0;
 }
+
+.presentation {
+    text-align: center;
+}
+
+.presentation h2 {
+    color: #9792E4;
+    padding: 20px 0;
+}
+
+.testimonial {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#testimonial .card {
+    text-align: center;
+    background: #9792E4;
+    padding: 20px 0;
+    color: #fff;
+}
+
+#testimonial .card p {
+    padding: 20px 0;
+}
+#testimonial i {
+    font-size: 25px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 #features {
     background-color: #9792E4;
@@ -505,7 +534,7 @@ footer {
 
     }
 
-    #img-plannig-2{
+    #img-plannig-2 {
         width: 50%;
     }
 
