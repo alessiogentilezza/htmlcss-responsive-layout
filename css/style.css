@@ -72,8 +72,9 @@ html {
 }
 
 .container {
-    max-width: calc(100% - 20px);
+    max-width: 100%;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* .small-container {
@@ -109,14 +110,16 @@ html {
 
 .debug-box {
     height: 70px;
-    line-height: 70px;
+    /* line-height: 70px; */
+    padding: 10px;
     background-color: #B5DDFF;
 
 }
 
 .debug-box-2 {
     height: 70px;
-    line-height: 70px;
+    /* line-height: 70px; */
+    padding: 10px;
     background-color: #BCB5EE;
 
 }
@@ -131,7 +134,7 @@ html {
 
 header {
     background-color: #0084FD;
-    height: 70px;
+    /* height: 70px; */
     width: 100%;
     position: fixed;
     top: 0;
@@ -161,12 +164,20 @@ main {
     margin: 30px 0;
 }
 
-#benefits {
+#features {
     background-color: #9792E4;
     padding: 50px 0;
 }
 
-#benefits .card {
+#features .card {
+    margin: 10px 0;
+}
+
+#about-us {
+    padding: 50px 0;
+}
+
+#about-us .card {
     margin: 10px 0;
 }
 
@@ -215,7 +226,7 @@ main {
         flex-grow: 1;
     }
 
-    #benefits .cards {
+    #features .cards {
         display: flex;
         flex-wrap: wrap;
         margin: 0 -10px;
@@ -223,7 +234,21 @@ main {
 
     }
 
-    #benefits .card {
+    #features .card {
+        width: calc((100% / 2) - 20px);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #about-us .cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+
+
+    }
+
+    #about-us .card {
         width: calc((100% / 2) - 20px);
         margin-left: 10px;
         margin-right: 10px;
@@ -260,7 +285,7 @@ main {
         margin: 0 10px;
     }
 
-    #benefits .card {
+    #features .card {
         width: calc((100% / 3) - 20px);
         margin-left: 10px;
         margin-right: 10px;
