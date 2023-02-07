@@ -302,8 +302,9 @@ h4 {
 }
 
 #testimonial .card p {
-    padding: 20px 0;
+    padding: 20px;
 }
+
 #testimonial i {
     font-size: 25px;
     color: white;
@@ -441,13 +442,22 @@ footer {
 
     #testimonial .card {
         display: flex;
-        flex-wrap: wrap;
+        padding: 20px 10px;
 
     }
 
     #testimonial .card div:last-child {
+        text-align: left;
         flex-grow: 1;
     }
+    #testimonial .card div:last-child h3 {
+        padding: 0 20px;
+    }
+
+
+
+
+
 
     #features .cards {
         display: flex;
@@ -487,6 +497,16 @@ footer {
         left: 0; */
 
     }
+
+
+
+
+
+
+
+
+
+
 }
 
 @media screen and (min-width: 992px) {
