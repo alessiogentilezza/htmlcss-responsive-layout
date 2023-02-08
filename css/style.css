@@ -230,10 +230,19 @@ main {
 
 #planning img {
     width: 100%;
+
 }
 
-#planning .column h3,
-h4 {
+/* #img-plannig-1 {
+    width: 100%;
+}
+
+#img-plannig-2 {
+    width: 100%;
+} */
+
+#planning .columns h3,
+#planning .columns h4 {
     padding: 10px 0;
 }
 
@@ -250,11 +259,11 @@ h4 {
 
 .column.dx {
     text-align: center;
-
+    padding: 20px;
 }
 
 .column.dx p {
-    padding: 0 20px;
+    padding: 20px;
 }
 
 
@@ -266,7 +275,7 @@ h4 {
     font-size: 15px;
     display: inline-block;
     line-height: 30px;
-    margin: 20px 0;
+    /* margin: 20px 0; */
 }
 
 #testimonial {
@@ -333,7 +342,7 @@ h4 {
 }
 
 #features .card h2,
-h3 {
+#features .card h3 {
     color: #9792E4;
 
 }
@@ -393,13 +402,49 @@ h3 {
 }
 
 
-
-
 #get-started {
     background-color: #9792E4;
-    padding: 50px 0;
+    padding: 30px 0;
 
 }
+
+.free-text {
+    text-align: center;
+}
+
+#get-started {
+    color: #fff;
+}
+
+#get-started .free-text h4 {
+    color: #CBC9F1;
+}
+
+#get-started .free-text h3 {
+    padding: 20px 0;
+    color: #fff;
+}
+
+#get-started .free-text h2 {
+    color: #FDC15F;
+    padding: 20px 0;
+    font-size: 50px;
+}
+
+#get-started .free-text p {
+    padding: 20px;
+}
+
+.btn.big.white.text-violet{
+    display: inline-block;
+}   
+
+.policy{
+    padding: 20px 0;
+}
+
+
+
 
 footer {
     background-color: #333333;
@@ -456,6 +501,10 @@ footer {
 
 .text-black {
     color: black;
+}
+
+.text-violet {
+    color: #9792E4;
 }
 
 .bg-color-white {
@@ -551,7 +600,7 @@ footer {
 
     #about-us .card.sx {
         width: calc(60% - 50px);
-        margin-right: 50px;
+        padding-right: 50px;
     }
 
     #about-us .card.dx {
@@ -604,7 +653,7 @@ footer {
     }
 
     #planning .column.dx {
-        margin-top: 100px;
+        margin-top: 140px;
     }
 
 
@@ -613,11 +662,9 @@ footer {
 
     }
 
-    #img-plannig-2 {
-        width: 50%;
+    #planning .column.dx img {
+        max-width: 250px; 
     }
-
-
 
     #features .card {
         width: calc((100% / 3) - 20px);
