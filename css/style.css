@@ -11,46 +11,6 @@ html {
 
 /* REGOLE DI DEBUG */
 
-.w-30 {
-    width: 30%;
-}
-
-.w-50 {
-    width: 50%;
-}
-
-.w-100 {
-    width: 100%;
-}
-
-.bottom-30 {
-    padding-bottom: 30px;
-}
-
-.bottom-50 {
-    padding-bottom: 50px;
-}
-
-.bottom-100 {
-    padding-bottom: 100px;
-}
-
-.top-30 {
-    padding-top: 30px;
-}
-
-.top-50 {
-    padding-top: 50px;
-}
-
-.top-100 {
-    padding-top: 100px;
-}
-
-.border {
-    border: 1px dashed red;
-}
-
 .d-flex {
     display: flex;
 }
@@ -71,57 +31,15 @@ html {
     align-items: center;
 }
 
+.center {
+    text-align: center;
+}
+
 .container {
     max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
 }
-
-/* .small-container {
-    max-width: 1000px;
-    margin: 0 auto;
-} */
-
-/* .btn {
-    background-color: blue;
-    color: white;
-    border: none;
-    padding: 10px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-} */
-
-
-
-/* div::after {
-    content: '\2665';
-    color: red;
-} */
-
-/* .style-none {
-    list-style-type: none;
-} */
-
-/* .decoration-none {
-    text-decoration: none;
-} */
-
-
-.debug-box {
-    height: 70px;
-    padding: 10px;
-    background-color: #B5DDFF;
-
-}
-
-.debug-box-2 {
-    height: 70px;
-    padding: 10px;
-    background-color: #BCB5EE;
-
-}
-
 
 /* REGOLE CSS */
 
@@ -233,14 +151,6 @@ main {
 
 }
 
-/* #img-plannig-1 {
-    width: 100%;
-}
-
-#img-plannig-2 {
-    width: 100%;
-} */
-
 #planning .columns h3,
 #planning .columns h4 {
     padding: 10px 0;
@@ -275,7 +185,6 @@ main {
     font-size: 15px;
     display: inline-block;
     line-height: 30px;
-    /* margin: 20px 0; */
 }
 
 #testimonial {
@@ -435,21 +344,30 @@ main {
     padding: 20px;
 }
 
-.btn.big.white.text-violet{
+.btn.more-big.white.text-violet {
     display: inline-block;
-}   
-
-.policy{
-    padding: 20px 0;
+    margin: 20px 0;
 }
 
+#get-started .policy {
+    padding: 20px 0;
 
+}
 
 
 footer {
     background-color: #333333;
     padding: 50px 0;
 
+}
+
+footer a {
+    color: #837FC1;
+    text-decoration: underline;
+}
+
+footer p {
+    padding: 20px;
 }
 
 /* UTILITY */
@@ -459,7 +377,7 @@ footer {
 }
 
 .more-rounded {
-    border-radius: 100px;
+    border-radius: 50px;
 }
 
 .mb-30 {
@@ -479,6 +397,11 @@ footer {
 
 .btn.big {
     padding: 5px 40px;
+    border-radius: 50px;
+}
+
+.btn.more-big {
+    padding: 15px 60px;
     border-radius: 50px;
 }
 
@@ -593,8 +516,6 @@ footer {
 
     #about-us .cards {
         display: flex;
-        /* flex-wrap: wrap; */
-        /* margin: 0 -10px; */
     }
 
 
@@ -607,13 +528,6 @@ footer {
         width: 40%;
         padding-top: 20px;
     }
-
-
-
-
-
-
-
 
 }
 
@@ -663,7 +577,7 @@ footer {
     }
 
     #planning .column.dx img {
-        max-width: 250px; 
+        max-width: 250px;
     }
 
     #features .card {
