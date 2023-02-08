@@ -379,10 +379,18 @@ h3 {
 }
 
 
+#quotation-marks {
+    position: relative;
+    display: inline-block;
+}
 
-
-
-
+#quotation-marks i {
+    font-size: 50px;
+    color: #9792E4;
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
 
 
 
@@ -485,6 +493,16 @@ footer {
 
     }
 
+    .demo-img {
+        width: 40%;
+        margin: 0;
+        padding: 0 20px;
+
+        /* bottom: -20px;
+        left: 0; */
+
+    }
+
 
     #plannig .card {
         width: calc((100% / 2) - 20px);
@@ -510,9 +528,6 @@ footer {
 
 
 
-
-
-
     #features .cards {
         display: flex;
         flex-wrap: wrap;
@@ -529,30 +544,20 @@ footer {
 
     #about-us .cards {
         display: flex;
-        flex-wrap: wrap;
-        margin: 0 -10px;
-
-
-    }
-
-    #about-us .card {
-        width: calc((100% / 2) - 20px);
-        margin-left: 10px;
-        margin-right: 10px;
+        /* flex-wrap: wrap; */
+        /* margin: 0 -10px; */
     }
 
 
-    .demo-img {
+    #about-us .card.sx {
+        width: calc(60% - 50px);
+        margin-right: 50px;
+    }
+
+    #about-us .card.dx {
         width: 40%;
-        margin: 0;
-        padding: 0 20px;
-
-        /* bottom: -20px;
-        left: 0; */
-
+        padding-top: 20px;
     }
-
-
 
 
 
